@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Básico de Inglés</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Curso Básico de Inglés</h1>
+    </header>
+
+    <section id="modulo1">
+        <h2>Módulo 1: Presentaciones y saludos</h2>
+        <p>"Hello, my name is..." / "Nice to meet you!"</p>
+        <button onclick="completarModulo(1)">Marcar como completado</button>
+    </section>
+
+    <section id="modulo2">
+        <h2>Módulo 2: Verbos básicos</h2>
+        <p>"I like coffee" / "She works in a bank"</p>
+        <button onclick="completarModulo(2)">Marcar como completado</button>
+    </section>
+
+    <section>
+        <h2>Certificación</h2>
+        <button onclick="generarCertificado()">Obtener Certificado</button>
+        <p id="certificadoMsg"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
